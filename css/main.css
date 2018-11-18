@@ -7,8 +7,10 @@ h1 {
   left: 80px;
   z-index: 1;
   color: #fff;
-  animation: opacity 1s linear fowards;
+  font-size: 5rem;
+  line-height: 1.5;
   opacity: 0;
+    animation: opacity 1s linear fowards;
 }
 
 #narwhal-body {
@@ -37,7 +39,7 @@ h1 {
 #rainbow-yellow {
   stroke-dasharray: 1483.352px;
   stroke-dashoffset: 1483.352px;
-  animation: offset 1s linear forwards;
+  animation: rainbow-offset 1s linear forwards;
 }
 
 #rainbow-green {
