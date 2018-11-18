@@ -7,10 +7,8 @@ h1 {
   left: 80px;
   z-index: 1;
   color: #fff;
-  font-size: 5rem;
-  line-height: 1.5;
+  animation: oppacity 1s linear forwards;
   opacity: 0;
-    animation: opacity 1s linear fowards;
 }
 
 #narwhal-body {
@@ -20,13 +18,13 @@ h1 {
 }
 
 #narwhal-eye {
-  animation: opacity 1s linear forwards;
+  animation: oppacity 1s linear forwards;
   opacity: 0;
 }
 
 #rainbow-red {
   stroke-dasharray: 1243.044px;
-  stroke-dashoffset: 1234.044px;
+  stroke-dashoffset: 1243.044px;
   animation: offset 1s linear forwards;
 }
 
@@ -39,7 +37,7 @@ h1 {
 #rainbow-yellow {
   stroke-dasharray: 1483.352px;
   stroke-dashoffset: 1483.352px;
-  animation: rainbow-offset 1s linear forwards;
+  animation: offset 1s linear forwards;
 }
 
 #rainbow-green {
@@ -74,7 +72,7 @@ h1 {
 
 }
 
-@keyframes opacity {
+@keyframes oppacity {
 
   0% {
     opacity: 0;
